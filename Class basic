@@ -1,0 +1,8 @@
+class computer:
+    def __init__(self,cpu,ram):         #i5 and 16 hold by cpu and ram
+        self.c=cpu
+        self.r=ram
+    def config(self):
+        print(self.c,self.r)
+comp1=computer("i5",16) #defining object comp1 and telling it is object of computer class
+comp1.config()  
