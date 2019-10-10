@@ -1,0 +1,19 @@
+#include <iostream>
+#include <cstdio>
+
+
+using namespace std;
+
+int main() {
+    int a, b;
+    int sum=0,dif=0,i=-1;
+    
+    scanf("%d %d", &a, &b);
+    sum=a+b;
+    dif=a-b;
+    if(dif<0)
+        dif=dif*i;
+    cout<<sum<<"\n"<<dif;    
+    return 0;
+}
+
