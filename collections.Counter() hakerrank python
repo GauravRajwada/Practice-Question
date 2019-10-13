@@ -1,0 +1,11 @@
+m=int(input())
+L=list(map(int,input().split()))
+n=int(input())
+A=0
+while n:
+    n=n-1
+    c=list(map(int,input().split()))
+    if c[0] in L:
+        A=A+c[1]
+        L.remove(c[0])
+print(A)            
