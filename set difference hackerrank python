@@ -1,0 +1,8 @@
+n=int(input())
+a=input().split()
+m=input()
+b=input().split()
+a=set(a)
+b=set(b)
+c=a.difference(b)
+print(len(c))
