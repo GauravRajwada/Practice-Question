@@ -1,0 +1,9 @@
+
+from itertools import *
+
+n,m = input().split(' ')
+
+for l in range(1,int(m)+1):
+    for c in combinations (sorted(n),l):
+        print(''.join(c))    
+
